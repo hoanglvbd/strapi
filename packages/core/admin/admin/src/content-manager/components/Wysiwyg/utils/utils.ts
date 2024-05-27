@@ -239,8 +239,6 @@ export const insertFile = (
       editor.current.replaceSelection(`[${file.alt}](${file.url})`);
     }
   });
-
-  setTimeout(() => editor.current.focus(), 0);
 };
 
 // NEXT FUNCTIONS FOR QUOTE OR CODE MARKDOWN
